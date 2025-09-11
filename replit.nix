@@ -1,6 +1,6 @@
 { pkgs }: {
 	deps = [
-		pkgs.nodejs-23_x
+		pkgs.nodejs-16_x
 		pkgs.nodePackages.typescript-language-server
 		pkgs.libuuid
 		pkgs.replitPackages.jest
