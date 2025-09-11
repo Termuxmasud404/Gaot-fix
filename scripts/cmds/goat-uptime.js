@@ -56,4 +56,4 @@ function formatDuration(ms) {
 function getStartTime(ms) {
   const startDate = new Date(Date.now() - ms);
   return startDate.toLocaleString();
-}
+  }
