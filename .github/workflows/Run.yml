@@ -2,6 +2,8 @@ name: Node.js CI
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"   # প্রতি ৬ ঘন্টা পর পর auto run হবে
 
 jobs:
   build:
